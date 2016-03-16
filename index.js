@@ -7,7 +7,7 @@ var app = express();
 var port = process.env.PORT || 8000;
 
 app.get('/', function(req, res){
-	res.sendFile(__dirname + '/public/index.html');
+	res.send("Timestamp API");
 });
 
 app.get('/:time', function(req, res){
