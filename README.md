@@ -1,7 +1,5 @@
  <div class="container">
-            <h1 class="header">
-                API Basejump: Timestamp microservice
-            </h1>
+            <p>Uses node.js, express.js and moment.js</p>
             <blockquote>
                 User stories:
                 <ul>1) I can pass a string as a parameter, and it will check to see whether that string 
